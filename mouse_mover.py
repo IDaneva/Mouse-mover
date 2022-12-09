@@ -11,7 +11,7 @@ class MyWindow:
         self.seconds_entry_lbl.grid(column=2, row=2, sticky=(W, E))
         self.move_button = Button(win, text="Move!", command=self.process_for_a_given_amount_of_minutes).grid(column=3, row=3, sticky=W)
         self.text_label1 = Label(win, text="Move mouse for ").grid(column=1, row=2, sticky=E)
-        self.text_label2 = Label(win, text="minutes").grid(column=3, row=2, sticky=W)
+        self.text_label2 = Label(win, text="minute/s").grid(column=3, row=2, sticky=W)
 
     @staticmethod
     def move_mouse():
