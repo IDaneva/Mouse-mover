@@ -5,4 +5,4 @@ So I decided to write a simple code to do this for me.
 In my reseeach I found PyAutoGUI https://pyautogui.readthedocs.io/en/latest/index.html
 
 I used the mouse control functions to move the mouse in random spots in the set quadrant of coordinates. The quadrant is defined by x and y.
-Then the time modules defines when the mouse should be moved - in this case every 2 seconds
+Then the time modules defines for how long the mouse should be moved - in this case the minutes are taken from the input box
