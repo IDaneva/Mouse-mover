@@ -17,10 +17,11 @@ class MyWindow:
         minutes = self.seconds_entry_lbl.get()
         x = random.randint(600, 700)
         y = random.randint(200, 600)
-        t_end = time.time() + 60 * int(minutes)
-        while time.time() < t_end:
-            pyautogui.moveTo(x, y, 0.5)
-            time.sleep(1)
+        pyautogui.moveTo(x, y, 0.5)
+        #
+        # t_end = time.time() + 60 * int(minutes)
+        # while time.time() < t_end:
+        #     pyautogui.moveTo(x, y, 0.5)
 
 
 root = Tk()
