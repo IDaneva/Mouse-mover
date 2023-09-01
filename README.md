@@ -10,4 +10,4 @@ Then the time modules defines for how long the mouse should be moved - in this c
 When the programme is ran the following window pops up
 ![image](https://user-images.githubusercontent.com/101068051/206768570-94a69fe5-4eeb-45fe-888a-95a4d2165694.png)
 
-After entering the minutes and clicking on the "Move!" button, the mouse coursor will start moving by itself for the given amount of time
+After entering the minutes and clicking on the "Move!" button, the mouse coursor will start moving by itself for the given amount of time.
